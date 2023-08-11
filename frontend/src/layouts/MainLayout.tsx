@@ -59,7 +59,7 @@ export default function MainLayout({ children }: LayoutProps) {
           <Flex alignItems="center" gap="2" flex="1">
             <Box>
               <Link to="/">
-                <Heading size="md">Aptos Canvas</Heading>
+                <Heading size="md">Canvas</Heading>
               </Link>
             </Box>
           </Flex>
