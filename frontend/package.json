@@ -56,7 +56,7 @@
   "homepage": "./",
   "scripts": {
     "start": "vite --port 3000",
-    "build": "tsc --noEmit && vite build",
+    "build": "tsc --noEmit && vite build --outDir dist", // Specify outDir option
     "lint": "eslint 'src/**/*.{ts,tsx}'",
     "fmt": "prettier --write 'src/**/*.(ts|tsx)'",
     "generate-canvas-types": "graphql-codegen --config ./src/canvas/codegen.ts && pnpm fmt",
